@@ -551,7 +551,7 @@ h3.my-profession
     text-transform: capitalize;
     color: var(--text-black-900);
 }
-.about .about-content .timeline .timeline-title
+.about .about-content .timeline .timeline-text
 {
     line-height: 25px;
     font-size: 16px;
@@ -568,8 +568,8 @@ h3.my-profession
 .service .service-item
 {
     margin-bottom: 30px;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 .service .service-item .service-item-inner
 {
@@ -636,7 +636,7 @@ background: var(--skin-color);
 {
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .portfolio .portfolio-heading h2
 {
@@ -645,9 +645,11 @@ background: var(--skin-color);
 }
 .portfolio .portfolio-item
 {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 45%;
     margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .portfolio .portfolio-item-inner
 {
@@ -668,13 +670,14 @@ cursor: pointer;
     color: var(--skin-color);
     text-align: center;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .contact-sub-title
 {
     color: var(--text-black-900);
     text-align: center;
     font-size: 15px;
+    margin-bottom: 15px;
 }
 .contact .contact-info-item
 {
